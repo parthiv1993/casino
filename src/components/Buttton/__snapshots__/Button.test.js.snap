@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should match snapshot 1`] = `
+.c0 {
+  background: white;
+  border-width: 1px;
+  border-color: rgba(0,0,0,0.15);
+  color: #444;
+  cursor: pointer;
+  padding: 0.5em;
+  border-radius: 4px;
+}
+
+.c0.c0:focus {
+  outline: 2px solid blue;
+}
+
+<div>
+  <button
+    class="c0"
+  >
+    Button Text
+  </button>
+</div>
+`;
+
+exports[`Button should match snapshot when it is fullwidth 1`] = `
+.c0 {
+  width: 100%;
+  background: white;
+  border-width: 1px;
+  border-color: rgba(0,0,0,0.15);
+  color: #444;
+  cursor: pointer;
+  padding: 0.5em;
+  border-radius: 4px;
+}
+
+.c0.c0:focus {
+  outline: 2px solid blue;
+}
+
+<div>
+  <button
+    class="c0"
+  >
+    Button Text
+  </button>
+</div>
+`;
+
+exports[`Button should match snapshot when it is secondaryButton 1`] = `
+.c0 {
+  background: #1b1c1d;
+  border-width: 0px;
+  border-color: none;
+  color: white;
+  cursor: pointer;
+  padding: 0.5em;
+  border-radius: 4px;
+}
+
+.c0.c0:focus {
+  outline: 2px solid blue;
+}
+
+<div>
+  <button
+    class="c0"
+  >
+    Button Text
+  </button>
+</div>
+`;

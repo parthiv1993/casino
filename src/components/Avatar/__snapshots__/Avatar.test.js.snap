@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar should match snapshot 1`] = `
+.c0 {
+  border-radius: 50%;
+}
+
+<div>
+  <img
+    alt="avatar"
+    class="c0"
+    height="48"
+    src="http://localhost:3001/fa-username"
+    width="48"
+  />
+</div>
+`;

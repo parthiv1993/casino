@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginForm should match snapshot 1`] = `
+.c3 {
+  border: 0;
+  outline: none;
+  padding: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: transparent;
+}
+
+.c2 {
+  width: 100%;
+  border: 1px solid rgba(0,0,0,0.15);
+  background-color: white;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5em;
+  padding: 0.5em;
+}
+
+.c2.c2:focus-within {
+  outline: 2px solid blue;
+}
+
+.c4 {
+  background: white;
+  border-width: 1px;
+  border-color: rgba(0,0,0,0.15);
+  color: #444;
+  cursor: pointer;
+  padding: 0.5em;
+  border-radius: 4px;
+}
+
+.c4.c4:focus {
+  outline: 2px solid blue;
+}
+
+.c0 {
+  max-width: 400px;
+  background-color: white;
+  padding: 4rem 1rem;
+  margin: auto;
+  width: 100%;
+}
+
+.c1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1em;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<div>
+  <section
+    class="c0"
+  >
+    <form
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <input
+          class="c3"
+          data-testid="username-input"
+          name="username"
+          placeholder="Username"
+          required=""
+          type="text"
+        />
+        <i
+          class="fa-solid fa-user"
+        />
+      </div>
+      <div
+        class="c2"
+      >
+        <input
+          class="c3"
+          data-testid="password-input"
+          name="password"
+          placeholder="Password"
+          required=""
+          type="password"
+        />
+        <i
+          class="fa-solid fa-lock"
+        />
+      </div>
+      <button
+        class="c4"
+        data-testid="submit-button"
+        type="submit"
+      >
+        Login
+      </button>
+    </form>
+  </section>
+</div>
+`;
+
+exports[`LoginForm should not call login and show error message when username is empty 1`] = `
+.c3 {
+  border: 0;
+  outline: none;
+  padding: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: transparent;
+}
+
+.c2 {
+  width: 100%;
+  border: 1px solid rgba(0,0,0,0.15);
+  background-color: white;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5em;
+  padding: 0.5em;
+}
+
+.c2.c2:focus-within {
+  outline: 2px solid blue;
+}
+
+.c5 {
+  background: white;
+  border-width: 1px;
+  border-color: rgba(0,0,0,0.15);
+  color: #444;
+  cursor: pointer;
+  padding: 0.5em;
+  border-radius: 4px;
+}
+
+.c5.c5:focus {
+  outline: 2px solid blue;
+}
+
+.c0 {
+  max-width: 400px;
+  background-color: white;
+  padding: 4rem 1rem;
+  margin: auto;
+  width: 100%;
+}
+
+.c1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1em;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  color: red;
+  margin: 0;
+  text-align: center;
+}
+
+<div>
+  <section
+    class="c0"
+  >
+    <form
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <input
+          class="c3"
+          data-testid="username-input"
+          name="username"
+          placeholder="Username"
+          required=""
+          type="text"
+        />
+        <i
+          class="fa-solid fa-user"
+        />
+      </div>
+      <div
+        class="c2"
+      >
+        <input
+          class="c3"
+          data-testid="password-input"
+          name="password"
+          placeholder="Password"
+          required=""
+          type="password"
+        />
+        <i
+          class="fa-solid fa-lock"
+        />
+      </div>
+      <p
+        class="c4"
+        data-testid="error-message"
+      >
+        Please fill in username and passeord
+      </p>
+      <button
+        class="c5"
+        data-testid="submit-button"
+        type="submit"
+      >
+        Login
+      </button>
+    </form>
+  </section>
+</div>
+`;

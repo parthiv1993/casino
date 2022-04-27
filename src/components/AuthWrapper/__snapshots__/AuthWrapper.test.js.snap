@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthWrapper should render children if user is set in LoginContext 1`] = `
+<div>
+  This is dummy text
+</div>
+`;
+
+exports[`AuthWrapper should render navigate when user is not present 1`] = `
+<div>
+  <div
+    props="{\\"to\\":\\"/login\\",\\"state\\":{\\"from\\":\\"location\\"},\\"replace\\":true}"
+  />
+</div>
+`;
